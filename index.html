@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HNGx Frontend Stage One - Akuya Ekorot</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<main>
+			<section class="profile">
+				<img alt="Akuya Ekorot" data-testid="slackDisplayImage" class="image" src="assets/profile.jpg" />
+				<header class="header">
+					<h1 data-testid="slackUserName" class="name">Akuya Ekorot</h1>
+					<h2 data-testid="myTrack" class="track">Frontend</h2>
+				</header>
+			</section>
+			<section class="date-time">
+				<p id="day" class="day" data-testid="currentDayOfTheWeek"></p>
+				<time id="time" class="time" data-testid="currentUTCTime"></time>
+			</section>
+			<a target="blank" class="github" data-testid="githubURL" href="https://github.com/akuya-ekorot/hngx-frontend-stage-one">
+				<img class="github-icon" src="assets/github-mark.svg" />
+				<p>Link to repository</p>
+			</a>
+		</main>
+		<script src="js/index.js"></script>
+	</body>
+</html>
