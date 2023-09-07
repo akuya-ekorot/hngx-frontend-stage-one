@@ -1,5 +1,10 @@
 setInterval(() => {
-  document.getElementById("time").innerHTML = new Date().getUTCMilliseconds();
+  document.getElementById("time").innerHTML =
+    new Date().getUTCHours() +
+    ":" +
+    new Date().getUTCMinutes() +
+    ":" +
+    new Date().getUTCSeconds();
 }, 1);
 
 const days = [
