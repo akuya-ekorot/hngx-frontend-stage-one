@@ -4,7 +4,9 @@ setInterval(() => {
     ":" +
     new Date().getUTCMinutes() +
     ":" +
-    new Date().getUTCSeconds();
+    new Date().getUTCSeconds() +
+    ":" +
+    new Date().getUTCMilliseconds();
 }, 1);
 
 const days = [
