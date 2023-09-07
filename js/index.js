@@ -1,5 +1,5 @@
 setInterval(() => {
-  document.getElementById("time").innerHTML = Date.now();
+  document.getElementById("time").innerHTML = new Date.UTC().toLocaleTimeString();
 }, 1);
 
 const days = [
